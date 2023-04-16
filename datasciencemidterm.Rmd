@@ -1,0 +1,52 @@
+---
+title: "Exploring the Intersection of Gender, Ethnicity, and Physical Activity in Global Adolescents"
+author: 
+  - Huseynov, Ulvi[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 20080109, [datasciencemidterm](https://github.com/Dust2mulkiye/datasciencemidterm.git)
+
+
+# Introduction
+Gender inequality is a pervasive problem in many parts of the world, affecting various aspects of life such as health, education, and employment opportunities. It is essential to understand the effects of gender inequality on different aspects of society to develop effective policies and strategies for reducing these disparities. In this literature review, we explore the impact of gender inequality in education, employment, and physical activity on economic growth and health outcomes.Understanding the findings of these studies is crucial for data scientists and policymakers alike to inform evidence-based decision-making for reducing gender inequalities.
+
+
+## Literature Review
+
+Several studies have investigated the impact of gender inequality in education on economic growth.[@klasen2009impact] finds that gender inequality in education and employment negatively affects economic growth in a panel of countries. Similarly[@mekkodathil2016occupational]found that gender inequalities in education have negative economic impacts. In contrast,[@ricardo2022gender]
+explored gender inequalities in physical activity and found that it negatively impacts the health outcomes of adolescents from Global South countries.
+
+The effects of gender inequality in employment have also been studied. World Bank (2021) found that gender gaps in employment result in economic inefficiencies and losses. Additionally, [@mekkodathil2016occupational] investigated occupational injuries in workers from different ethnicities and found that gender differences in occupational injuries are prevalent and require attention. Finally,[@world2009guide]  guide provides a comprehensive framework for identifying and measuring the economic consequences of disease and injury, emphasizing the need to consider the social and economic impact of health conditions on individuals and society as a whole. The findings of these studies demonstrate the importance of continued research and policy development aimed at addressing gender inequalities in education, employment, and physical activity.
+
+
+\newpage
+# References {#references}
+<div id="refs"></div>
